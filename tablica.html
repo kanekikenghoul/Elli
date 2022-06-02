@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Таблиця</title>
+	<style type="text/css">
+		body 
+		{
+			background-color: yellow;
+		}
+		p{
+			background-color: blue ;
+			color: yellow;
+			font-size: 50px;
+		}
+		table{
+			width: 500px;
+			border-collapse: separate;
+			border: double 5px maroon;
+			margin: 10px auto;
+		}
+		th,td{
+			border: solid 2px magenta;
+			width: 100px;
+		}
+		tr{
+			height: 1cm;
+		}
+		tr:hover{
+			background-color: lightgrey;
+		}
+		td:hover{
+			background: linear-gradient(orange, blue) ;
+			font-size: 1.5em;
+			color: magenta;
+			font-weight: 800;
+		}
+		tr:nth-child(even) {
+			background-color: gold;
+		}
+		caption{
+			font-size: 40px;
+			color: blue;
+		}
+	</style>
+</head>
+<body>
+<p>Ми вивчаємо таблиці</p>
+<table>
+	<caption>Таблиця кольорiв</caption>
+	<tr>
+		<th>Color</th>
+		<th>Name</th>
+		<th>HEX</th>
+		<th>RGB</th>
+	</tr>
+	<tr>
+		<td style="background-color: #000;"></td>
+		<td>Black</td>
+		<td>#000000</td>
+		<td>(0,0,0)</td>
+	</tr>
+	<tr>
+		<td style="background-color: #f00;"></td>
+		<td>Red</td>
+		<td>#ff0000</td>
+		<td>(255,0,0)</td>
+	</tr>
+	<tr>
+		<td style="background-color: #00f;"></td>
+		<td>Blue</td>
+		<td>#0000ff</td>
+		<td>(0,0,255)</td>
+	</tr>
+	<tr>
+		<td style="background-color: #ff0;"></td>
+		<td>Yellow</td>
+		<td>#ffff00</td>
+		<td>(255,255,0)</td>
+	</tr>
+	<tr>
+		<td style="background-color: #fff;"></td>
+		<td>White</td>
+		<td>#ffffff</td>
+		<td>(255,255,255)</td>
+	</tr>
+	<tr>
+		<td style="background-color: #0f0;"></td>
+		<td>Green</td>
+		<td>#00ff00</td>
+		<td>(0,255,0)</td>
+	</tr>
+</table>
+</body>
+</html>

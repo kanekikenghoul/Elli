@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bank</title>
+	
+</head>
+<body>
+<script type="text/javascript">
+	let money = +prompt('Яку суму хочете зняти', '');
+if (money< 50 || money > 3000) {
+alert('На жаль, Ви можете зняти гроші на суму від 50 грн. до 30000 грн.');
+}else if(money%50==0){
+ alert('Заберіть свої гроші у сумі: '+money+' грн.')
+}else{
+alert('Ви ввели суму не кратну 50')
+}
+</script>
+</body>
+</html>

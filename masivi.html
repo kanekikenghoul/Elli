@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>masivi</title>
+	<script type="text/javascript">
+		/*let numbers = ['Нуль','Один','Два'];
+let numbers = ["Нуль", "Один", "Два"];
+alert(numbers [0] ); // Нуль
+alert(numbers [1] ); // Один
+alert(numbers [2] ); // Два
+numbers [2] = "не два"; // тепер ["Нуль", "Один", "не два"]
+alert(numbers);
+numbers [3] = "Три"; // тепер ["Нуль", "Один", "не два", "Три"]
+alert(numbers);*/
+let number = prompt("How many compliments do you want?", 100)
+
+let compliments=["clever", "good", "happy", "energy", "loyal", "fine" , "marvelous" , "adorable" , "gorgeous"]
+let animals = ["cat", "camel", "snake" , "shark", "dolphin", "dog", "elephant", "beaver", "parrot", "spider"]
+
+for (let i = 1; i <= number; i++) {
+
+	let randCompliments=Math.floor(Math.random()*compliments.length)
+	let randAnimals=Math.floor(Math.random()*animals.length)
+
+	document.write(i +") You are so " +compliments[randCompliments]+ " as "+animals[randAnimals]+"!"+"<br>" )
+	}
+	
+	</script>
+</head>
+<body>
+
+</body>
+</html>
