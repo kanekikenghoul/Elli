@@ -1,11 +1,13 @@
 body{
-	background-image: url(https://funart.pro/uploads/posts/2021-04/1618564366_48-funart_pro-p-oboi-fon-anime-voda-56.jpg)
+	background-image: url(img/block.png)
 }
+
 div{
 	width: 300px;
 	height: 300px;
 	border: double 8px black;
 	margin: 50px;
+
 }
 .third, .fourth{
 	width: 700px;
@@ -13,14 +15,14 @@ div{
 }
 .first{
 	border: double 7px orange;
-	background-image: url(http://umteh.com/uploads/posts/2015-05/1431529328_fiery-love-480x854.jpg);
+	background-image: url(img/ogon.png);
 }
 .fifth{
 	width: 300px;
 	height: 300px;
 	border: double 9px black;
 	margin: 60px;
-	background-color: white;
+	background-color: lightgrey;
 }
 .sixth{
 	width: 200px;
